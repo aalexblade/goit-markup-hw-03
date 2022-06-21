@@ -1,0 +1,234 @@
+:root {
+/* гланый заголововк цвет текста */
+  --main-title-color: #FFFFFF;
+  /* главний цвет текста */
+  --primery-text-colot: #212121;
+  /* вторичний цвет текста */
+  --tiele-text-color: #757575;
+  /* цвет акцент навидение на ссылку */
+  --accent-color: #2196F3;
+  /* цвет основной кнопки */
+  --primery-button-colot: #FFFFFF;
+  /* цвет логотипа вторичний хедер */
+  --logo-header-color:#212121;
+  /* цвет логотипа вторичний футер */
+  --logo-footer-color:#FFFFFF;
+}
+
+/* html. студия */
+
+/* хедер */
+
+.header {
+  background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5; 
+   }
+
+body {
+    
+    font-family: 'Roboto' , sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    background-color: #FFFFFF;
+               color: var(--primery-text-colot);
+}
+
+/* site-nav цвет навигации */
+
+.site-nav .link {
+  text-decoration: none;
+      color: var(--primery-text-colot) ;
+}
+
+.contact-link {
+  
+  color: var(--tiele-text-color) ;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+     color: var(--accent-color) ;
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+     color:var(--accent-color);
+}
+
+/* < !-- герой-шапка сайта --> */
+.hero {
+  background: #2F303A;
+}
+
+.hero-title {
+  color:#FFFFFF ;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-button {
+color: #FFFFFF;
+background-color: #2196F3;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+}
+
+.pointer{
+  cursor: pointer;
+  color: #FFFFFF;
+  background-color: #2196F3;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+}
+
+ /* .pointer:hover,
+ .pointer:focus {
+  color: #2F303A;
+  background-color: #FFFFFF;
+} */
+
+
+
+ /* преймущество */
+
+.advantage-list .title {
+  color: var(--tiele-text-color);
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  
+  
+}
+
+.advantage-title {
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+/* чем мы занимаемся */
+.work-title {
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+/* .work-images */
+
+/* наша команда */
+.team {
+  background-color: #F5F4FA ;
+}
+
+.team-text {
+  color: var(--tiele-text-color);
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+}
+
+.team .title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+}
+
+.team-title {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+}
+/* футер */
+
+.footer {
+    background-color: #2F303A;
+}
+/* span logo color */
+.color {
+  color: var(--logo-header-color);
+}
+
+.color-studio {
+  color:var(--logo-footer-color);
+}
+
+.logo-link {
+  color: var(--accent-color);
+  font-family: Raleway ;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  
+}
+.address-link {
+color: var(--main-title-color);
+text-decoration: none;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+  
+}
+
+.contact-link {
+  color: var(--tiele-text-color);
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+
+
+/* html. портфолио */
+
+/* услуги */
+
+.services .pointer:hover,
+.services .pointer:focus {
+  color: var(--primery-button-colot);
+  background-color: #2196F3;
+}
+
+.services .pointer{
+  cursor: pointer;
+  color: var(--primery-text-colot);
+  background-color:#F5F4FA;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+
+.service .title{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.services .text {
+  color: var(--tiele-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
